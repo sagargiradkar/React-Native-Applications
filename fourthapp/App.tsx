@@ -1,118 +1,137 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
 
-import React from 'react';
-import type {PropsWithChildren} from 'react';
+import React, { useState } from 'react';
 import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
+  Button,
   Text,
-  useColorScheme,
   View,
+  StyleSheet,
+  TextInput,
 } from 'react-native';
 
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
+import Exstyle, {} from './style';
 
-type SectionProps = PropsWithChildren<{
-  title: string;
-}>;
+//State 
+/*
+const App = () => {
 
-function Section({children, title}: SectionProps): JSX.Element {
-  const isDarkMode = useColorScheme() === 'dark';
+  let data = "Pratham";
+  const [name, setName] = useState("Sagar");
+
+  function testName() {
+    setName("Pavan");
+  }
   return (
-    <View style={styles.sectionContainer}>
-      <Text
-        style={[
-          styles.sectionTitle,
-          {
-            color: isDarkMode ? Colors.white : Colors.black,
-          },
-        ]}>
-        {title}
-      </Text>
-      <Text
-        style={[
-          styles.sectionDescription,
-          {
-            color: isDarkMode ? Colors.light : Colors.dark,
-          },
-        ]}>
-        {children}
-      </Text>
+    <View>
+      <Text style={{ fontSize: 30 }}>{name}</Text>
+      <Text style = {{fontSize:30}}>{data}</Text>
+
+      <Button title='Update Name' onPress={testName} />
+    </View>
+  )
+}
+export default App;
+
+*/
+
+// const App = () =>{
+
+//   const [name,setName] = useState("Peter");
+//   return(
+//     <View>
+//       <Text style = {{fontSize:30}}>Props in React Native</Text>
+//       <Button title='Update Props' onPress={()=>setName("Pavan")}/>
+//       <User name = {name} age = {29}/>
+//     </View>
+//   );
+// }
+
+
+// const User = (props)=>{
+//     return(
+//       <View style = {{backgroundColor:'green',padding:5}}>
+//         <Text style = {{fontSize:30}}>Name : {props.name}</Text>
+
+//         <Text style = {{fontSize:30}}>Age : {props.age}</Text>
+//       </View>
+//     )
+// }
+// export default App;
+
+//Baic Styling in react native
+
+// const App = () =>{
+//   return (
+//     <View>
+//       <Text style = {{fontSize : 50,color:'red',backgroundColor:'green'}}>
+//         Styles in React Native 
+//       </Text>
+
+//       <Text style = {style.textBox}>
+//         Styles in React Native 
+//       </Text>
+
+//       <Text style = {style.textBox}>
+//         Styles in React Native 
+//       </Text>
+
+//       <Text style = {[Exstyle.textBox,Exstyle.textBox]}>
+//         Styles in React Native 
+//       </Text>
+
+//     </View>
+//   );
+// }
+
+// const style = StyleSheet.create({
+//   textBox:{
+//     color:'#fff',
+//     fontSize:25,
+//     backgroundColor:'blue',
+//     marginBottom:10,
+//     padding:10,
+//     borderRadius:10,
+//     height:100,
+//     textAlignVertical:'center',
+//     textAlign:'center',
+//     borderColor:'red',
+//     borderWidth:2,
+
+
+//   }
+// })
+// export default App;
+
+
+//Text Input in react - native 
+
+const App = () =>{
+  const [name,setName] = useState("");
+  return(
+    <View>
+      
+      <Text style = {{fontSize:30}}>Handle text input</Text>
+
+      <Text style = {{fontSize:30}}>Your Name is :{name}</Text>
+      <TextInput
+      style = {styles.TextInput}
+      value={name}
+      placeholder='Enter your name'
+      onChangeText={(text)=>setName(text)}
+      />
+      <Button title='Clear Input Value ' onPress={()=>setName('')}/>
     </View>
   );
 }
 
-function App(): JSX.Element {
-  const isDarkMode = useColorScheme() === 'dark';
-
-  const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
-  };
-
-  return (
-    <SafeAreaView style={backgroundStyle}>
-      <StatusBar
-        barStyle={isDarkMode ? 'light-content' : 'dark-content'}
-        backgroundColor={backgroundStyle.backgroundColor}
-      />
-      <ScrollView
-        contentInsetAdjustmentBehavior="automatic"
-        style={backgroundStyle}>
-        <Header />
-        <View
-          style={{
-            backgroundColor: isDarkMode ? Colors.black : Colors.white,
-          }}>
-          <Section title="Step One">
-            Edit <Text style={styles.highlight}>App.tsx</Text> to change this
-            screen and then come back to see your edits.
-          </Section>
-          <Section title="See Your Changes">
-            <ReloadInstructions />
-          </Section>
-          <Section title="Debug">
-            <DebugInstructions />
-          </Section>
-          <Section title="Learn More">
-            Read the docs to discover what to do next:
-          </Section>
-          <LearnMoreLinks />
-        </View>
-      </ScrollView>
-    </SafeAreaView>
-  );
-}
 
 const styles = StyleSheet.create({
-  sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24,
-  },
-  sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600',
-  },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
-  },
-  highlight: {
-    fontWeight: '700',
-  },
-});
+  TextInput:{
+    fontSize:18,
+    color:'red',
+    borderWidth:2,
+    borderColor:'blue',
+    margin:10
+  }
+}) 
 
 export default App;
