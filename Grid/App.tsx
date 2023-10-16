@@ -1,118 +1,169 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
-
 import React from 'react';
 import type {PropsWithChildren} from 'react';
 import {
-  SafeAreaView,
   ScrollView,
-  StatusBar,
   StyleSheet,
   Text,
-  useColorScheme,
   View,
+  FlatList
 } from 'react-native';
 
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
+// const App = () =>{
+//   return(
+//     <View>
+//       <Text style = {{fontSize:31}}>List With Map Function</Text>
+//       <View style= {{flex:1,flexDirection:'row',flexWrap:'wrap'}}>
+//       <Text style={style.item}>Sam</Text>
+//       <Text style={style.item}>Sam</Text>
+//       <Text style={style.item}>Sam</Text>
+//       <Text style={style.item}>Sam</Text>
+//       <Text style={style.item}>Sam</Text>
+//       <Text style={style.item}>Sam</Text>
+//       <Text style={style.item}>Sam</Text>
+//       <Text style={style.item}>Sam</Text>
+//       <Text style={style.item}>Sam</Text>
+//       <Text style={style.item}>Sam</Text>
+//       <Text style={style.item}>Sam</Text>
+//       <Text style={style.item}>Sam</Text>
+//       <Text style={style.item}>Sam</Text>
+//       <Text style={style.item}>Sam</Text>
+//       <Text style={style.item}>Sam</Text>
+//       <Text style={style.item}>Sam</Text>
+//       <Text style={style.item}>Sam</Text>
+//       <Text style={style.item}>Sam</Text>
+//       <Text style={style.item}>Sam</Text>
+//       <Text style={style.item}>Sam</Text>
+//       <Text style={style.item}>Sam</Text>
+//       <Text style={style.item}>Sam</Text>
+//       <Text style={style.item}>Sam</Text>
+//       <Text style={style.item}>Sam</Text>
+//       <Text style={style.item}>Sam</Text>
+//       </View>
+//     </View>
+//   )
 
-type SectionProps = PropsWithChildren<{
-  title: string;
-}>;
+// }
+// const style = StyleSheet.create({
+//   item:{
+//     fontSize:25,
+//     backgroundColor:'blue',
+//     color:"#fff",
+//     margin:5,
+//     padding:5,
+//     width:120,
+//     height:120,
+//     textAlign:'center',
+//     textAlignVertical:'center'
 
-function Section({children, title}: SectionProps): JSX.Element {
-  const isDarkMode = useColorScheme() === 'dark';
+//   }
+// })
+
+const App = ()=>{
+
+  const users = [
+    {
+      id:1,
+      name:"Sagar",
+      email:"abc@test.com"
+    },
+    {
+      id:2,
+      name:"Sam",
+      email:"abc@test.com"
+
+    }
+    ,
+    {
+      id:3,
+      name:"Peter",
+      email:"abc@test.com"
+    }
+    ,
+    {
+      id:4,
+      name:"Tony",
+      email:"abc@test.com"
+    },
+    {
+      id:2,
+      name:"Sam",
+      email:"abc@test.com"
+
+    },
+    {
+      id:2,
+      name:"Sam",
+      email:"abc@test.com"
+
+    },
+    {
+      id:2,
+      name:"Sam",
+      email:"abc@test.com"
+
+    },
+    {
+      id:2,
+      name:"Sam",
+      email:"abc@test.com"
+
+    },
+    {
+      id:2,
+      name:"Sam",
+      email:"abc@test.com"
+
+    },
+    {
+      id:2,
+      name:"Sam",
+      email:"abc@test.com"
+
+    },
+    {
+      id:2,
+      name:"Sam",
+      email:"abc@test.com"
+
+    }
+  ]
   return (
-    <View style={styles.sectionContainer}>
-      <Text
-        style={[
-          styles.sectionTitle,
-          {
-            color: isDarkMode ? Colors.white : Colors.black,
-          },
-        ]}>
-        {title}
-      </Text>
-      <Text
-        style={[
-          styles.sectionDescription,
-          {
-            color: isDarkMode ? Colors.light : Colors.dark,
-          },
-        ]}>
-        {children}
-      </Text>
+    <View>
+      <Text style={{fontSize:27}}>Components in Loop with FlatList</Text>
+      <FlatList
+        data={users}
+        renderItem={({item})=> <UserData item={item}/>}
+      />
     </View>
   );
-}
-
-function App(): JSX.Element {
-  const isDarkMode = useColorScheme() === 'dark';
-
-  const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
-  };
-
-  return (
-    <SafeAreaView style={backgroundStyle}>
-      <StatusBar
-        barStyle={isDarkMode ? 'light-content' : 'dark-content'}
-        backgroundColor={backgroundStyle.backgroundColor}
-      />
-      <ScrollView
-        contentInsetAdjustmentBehavior="automatic"
-        style={backgroundStyle}>
-        <Header />
-        <View
-          style={{
-            backgroundColor: isDarkMode ? Colors.black : Colors.white,
-          }}>
-          <Section title="Step One">
-            Edit <Text style={styles.highlight}>App.tsx</Text> to change this
-            screen and then come back to see your edits.
-          </Section>
-          <Section title="See Your Changes">
-            <ReloadInstructions />
-          </Section>
-          <Section title="Debug">
-            <DebugInstructions />
-          </Section>
-          <Section title="Learn More">
-            Read the docs to discover what to do next:
-          </Section>
-          <LearnMoreLinks />
+};
+const UserData = (props) =>{
+  const item = props.item;
+  return(
+    <View style={styles.box}>
+          <Text style={styles.item}>{item.name}</Text>
+          <Text style={styles.item}>{item.email}</Text>
         </View>
-      </ScrollView>
-    </SafeAreaView>
-  );
+  )
 }
-
 const styles = StyleSheet.create({
-  sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24,
-  },
-  sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600',
-  },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
-  },
-  highlight: {
-    fontWeight: '700',
-  },
-});
+  item:{
+    fontSize:24,
+    color:'orange',
+    flex:1,
+    margin:2,
+    textAlign:'center',
 
+
+  },
+  box:{
+    flexDirection:'row',
+    borderWidth:2,
+    borderColor:'orange',
+    marginBottom:10,
+    padding:10,
+    borderRadius:10
+
+  }
+})
 export default App;
