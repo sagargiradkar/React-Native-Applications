@@ -1,0 +1,90 @@
+{
+  "users": [
+    {
+      "name": "Sagar Giradkar",
+      "age": 29,
+      "email": "abc@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "abhishek Giradkar",
+      "age": 20,
+      "email": "abhishek@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "premkant Giradkar",
+      "age": 19,
+      "email": "premkant@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "aniket Giradkar",
+      "age": 21,
+      "email": "aniket@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "ram Giradkar",
+      "age": 21,
+      "email": "ram@gmail.com",
+      "id": 6
+    },
+    {
+      "name": "Ramma",
+      "age": 34,
+      "email": "xrr@gmail.com",
+      "id": 7
+    },
+    {
+      "name": "Shama",
+      "age": 10,
+      "email": "xrr@gmail.com",
+      "id": 8
+    },
+    {
+      "name": "Shama",
+      "age": 10,
+      "email": "shana@gmail.com",
+      "id": 9
+    },
+    {
+      "name": "Shama",
+      "age": 10,
+      "email": "shana@gmail.com",
+      "id": 10
+    },
+    {
+      "name": "Sagar ",
+      "age": 29,
+      "email": "spgiradkar2002@gmail.com",
+      "id": 11
+    },
+    {
+      "name": "",
+      "age": null,
+      "email": "",
+      "id": 12
+    },
+    {
+      "name": "Prathamesh ",
+      "age": 20,
+      "email": "21143051@pvgcoet.ac.in",
+      "id": 13
+    },
+    {
+      "name": "Sagar ",
+      "age": 58,
+      "email": "Sp",
+      "id": 14
+    },
+    {
+      "rollNo": "S",
+      "name": "F",
+      "class": "G",
+      "email": "T",
+      "address": "F",
+      "id": 15
+    }
+  ]
+}

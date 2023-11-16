@@ -1,0 +1,271 @@
+{
+  "chart": {
+    "Years": "ਸਾਲ",
+    "Amount": "ਰੱਖਣ ਦੀ ਮਕਦੂਮੀ",
+    "Income": "ਆਮਦਨ",
+    "Expense": "ਖਰਚ",
+    "Savings": "ਬੱਚਤ"
+  },
+  "suggestFeautre": {
+    "title": "ਇੱਕ ਸੁਝਾਅ ਦਿਓ",
+    "introText": "ਤੁਸੀਂ ਕਿਹੜੀ ਚੀਜ਼ ਨੂੰ ਵਾਧੂ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?",
+    "titleLabel": "ਸਿਰਲੇਖ",
+    "titlePlaceholder": "ਤੁਹਾਡੀ ਵਿਚਾਰ",
+    "emailLabel": "ਈਮੇਲ",
+    "emailPlaceholder": "ਈਮੇਲ (ਐਕਸਪੈਕਟ)",
+    "detailsLabel": "ਵੇਰਵਾ",
+    "detailsPlaceholder": "ਕੋਈ ਵਾਧੂ ਵੇਰਵਾ",
+    "mandatoryField": "*",
+    "submitButton": "ਪੇਸ਼ ਕਰੋ"
+  },
+  "languageSelection": {
+    "SelectLanguage": "ਭਾਸ਼ਾ ਚੁਣੋ"
+  },
+  "currencySelection": {
+    "Select Currency": "ਮੁਦਰਾ ਚੁਣੋ",
+    "Filter currencies": "ਮੁਦਰਾਵਾਂ ਫਿਲਟਰ ਕਰੋ",
+    "Save": "ਸੰਭਾਲੋ"
+  },
+
+  "currency": {
+    "USD": "ਸੰਯੁਕਤ ਰਾਜ ਡਾਲਰ (USD)",
+    "EUR": "ਯੂਰੋ (EUR)",
+    "GBP": "ਬ੍ਰਿਟਿਸ਼ ਪਾਊਂਡ ਸਟਰਲਿੰਗ (GBP)",
+    "JPY": "ਜਪਾਨੀ ਯੇਨ (JPY)",
+    "CAD": "ਕੈਨੇਡਿਅਨ ਡਾਲਰ (CAD)",
+    "AUD": "ਆਸਟ੍ਰੇਲੀਅਨ ਡਾਲਰ (AUD)",
+    "CHF": "ਸਵਿਸ ਫ੍ਰੈਂਕ (CHF)",
+    "INR": "ਭਾਰਤੀ ਰੁਪਈ (INR)"
+  },
+
+  "feedback": {
+    "How was your experience?": "ਤੁਹਾਡਾ ਅਨੁਭਵ ਕਿਵੇਂ ਸੀ?",
+    "feedback": "ਅਨੁਭਵ ਸਾਂਝਾ ਕਰੋ"
+  },
+  "helpSupport": {
+    "heading": "ਮਦਦ ਅਤੇ ਸਹਿਯੋਗ",
+    "nameLabel": "ਨਾਮ",
+    "namePlaceholder": "ਆਪਣਾ ਨਾਮ ਦਰਜ ਕਰੋ",
+    "phoneLabel": "ਫੋਨ ਨੰਬਰ",
+    "phonePlaceholder": "ਆਪਣਾ ਫੋਨ ਨੰਬਰ ਦਰਜ ਕਰੋ",
+    "emailLabel": "ਈਮੇਲ ID",
+    "emailPlaceholder": "ਆਪਣਾ ਈਮੇਲ ਐਡਰੈੱਸ ਦਰਜ ਕਰੋ",
+    "descriptionLabel": "ਮੁੱਦੇ ਦਾ ਵਰਣਨ",
+    "descriptionPlaceholder": "ਮੁੱਦੇ ਦਾ ਵਰਣਨ ਕਰੋ",
+    "mandatoryField": "*",
+    "saveButton": "ਸੰਭਾਲੋ"
+  },
+  "profile": {
+    "Profile": "ਪ੍ਰੋਫਾਈਲ",
+    "Referral": "ਰੇਫਰਲ",
+    "Language": "ਭਾਸ਼ਾ",
+    "Security": "ਸੁਰੱਖਿਆ",
+    "MyGifts": "ਅਕਸਰ ਪੁੱਛੇ ਜਾਣ ਵਾਲੇ ਸਵਾਲ",
+    "HelpSupport": "ਮਦਦ ਅਤੇ ਸਹਿਯੋਗ",
+    "Settings": "ਸੈਟਿੰਗਸ",
+    "Interests": "ਰੁਚੀਆਂ",
+    "Currency": "ਮੁਦਰਾ",
+    "Logout": "ਲੌਗਆਊਟ",
+    "Budgetalizer": "ਬਜਟਲਾਈਜ਼ਰ",
+    "BudgetalizerUser": "ਮਰਦ",
+    "DarkMode": "ਡਾਰਕ ਮੋਡ"
+  },
+  "addTransaction": {
+    "selectCategory": "ਕੈਟਗਰੀ ਚੁਣੋ",
+    "amount": "ਰਕਮ:",
+    "description": "ਵਰਣਨ:",
+    "saveTransaction": "ਲੈਣ-ਦੇਣ ਸੰਚਿਤ ਕਰੋ",
+    "income": "ਕਰੇਡਿਟ (ਆਮਦਨ)",
+    "expense": "ਡੇਬਿਟ (ਖਰਚ)",
+    "numbersOnly": "ਸਿਰਫ ਨੰਬਰ",
+    "addDescription": "ਵਰਣਨ ਸ਼ਾਮਲ ਕਰੋ",
+    "selectDate": "ਮਿਤੀ ਚੁਣੋ",
+    "successTitle": "ਸਫਲਤਾ",
+    "successMessage": "ਲੈਣ-ਦੇਣ ਸੰਚਿਤ ਕੀਤਾ ਗਿਆ!",
+    "warningTitle": "ਚੇਤਾਵਨੀ",
+    "warningMessage": "ਕੁਝ ਗਲਤ ਗਿਆ ਹੈ",
+    "Enter New Category": "ਨਵੀਂ ਕੈਟਗਰੀ ਦਰਜ ਕਰੋ",
+    "+ ADD CATEGORY": "+ ਕੈਟਗਰੀ ਸ਼ਾਮਲ ਕਰੋ",
+    "CREDIT_LABEL": "ਕਰੇਡਿਟ (ਆਮਦਨ)",
+    "DEBIT_LABEL": "ਡੇਬਿਟ (ਖਰਚ)",
+    "DESCRIPTION_REQUIRED_ERROR": "ਵਰਣਨ ਦੀ ਜਰੂਰਤ ਹੈ।",
+    "AMOUNT_REQUIRED_ERROR": "ਲੈਣ-ਦੇਣ ਦੀ ਰਕਮ ਦੀ ਜਰੂਰਤ ਹੈ।",
+    "DATE_REQUIRED_ERROR": "ਮਿਤੀ ਚੁਣਨ ਦੀ ਜਰੂਰਤ ਹੈ।"
+  },
+  "chatBot": {
+    "greeting": "ਹੈਲੋ! ਮੈਂ ਤੁਹਾਨੂੰ ਕਿਵੇਂ ਮਦਦ ਕਰ ਸਕਦਾ ਹਾਂ?",
+    "helpPrompt": "ਆਪਣੇ ਮੁੱਦੇ ਦਾ ਵਿਵਰਣ ਦਿਓ",
+    "moneyRequest": "ਕਿਰਪਾ ਕਰਕੇ ਆਪਣਾ ਲੈਣ-ਦੇਣ ਆਈਡੀ ਦਿਓ।",
+    "thankResponse": "ਤੁਹਾਨੂੰ ਮਦਦ ਕਰਨ ਦੇ ਖੁਸੀ ਹੈ",
+    "investmentInfo": "ਆਮ ਵਿਤੈਕ ਯੋਜਨਾ ਸੂਤ੍ਰ 50%, 30%, 20% ਹੈ",
+    "default": "ਮਾਫ ਕਰਨਾ, ਮੈਂ ਸਮਝਿਆ ਨਹੀਂ।",
+    "sendButton": "ਭੇਜੋ",
+    "placeholder": "ਆਪਣਾ ਸੁਨੇਹਾ ਲਿਖੋ..."
+  },
+  "login": {
+    "budgetalizer": "ਬਜਟਲਾਈਜ਼ਰ",
+    "Phone Number": "ਫੋਨ ਨੰਬਰ",
+    "Password": "ਪਾਸਵਰਡ",
+    "Please input phone number": "ਕਿਰਪਾ ਕਰਕੇ ਫੋਨ ਨੰਬਰ ਦਾਖਲ ਕਰੋ",
+    "Please input valid phone number": "ਕਿਰਪਾ ਕਰਕੇ ਇੱਕ ਵੈਲੀਡ ਫੋਨ ਨੰਬਰ ਦਾਖਲ ਕਰੋ",
+    "Please enter password": "ਕਿਰਪਾ ਕਰਕੇ ਪਾਸਵਰਡ ਦਾਖਲ ਕਰੋ",
+    "Min password length of 6": "ਘੱਟੋ ਘੱਟ 6 ਅੱਖਰਾਂ ਦੀ ਪਾਸਵਰਡ ਲੰਬਾਇ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ",
+    "Password should have at least one uppercase letter, one lowercase letter, one number and one special character": "ਪਾਸਵਰਡ ਵਿੱਚ ਘੱਟੋ ਘੱਟ ਇੱਕ ਅੱਪਰਕੇਸ ਅੱਖਰ, ਇੱਕ ਲੋਅਰਕੇਸ ਅੱਖਰ, ਇੱਕ ਨੰਬਰ ਅਤੇ ਇੱਕ ਵਿਸੇਸ਼ ਚੈਰਕਟਰ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ",
+    "forgetPassword": "ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ ਹੋ?",
+    "login": "ਲੌਗਇਨ",
+    "or": "ਜਾਂ",
+    "register": "ਰਜਿਸਟਰ"
+  },
+  "getStarted": {
+    "SAVE MONEY WISELY !": "ਦੁਆਰਾ ਪੈਸੇ ਸੰਭਾਲੋ!",
+    "Get Started": "ਸ਼ੁਰੂ ਕਰੋ"
+  },
+  "homePage": {
+    "Daily": "ਰੋਜ਼ਾਨਾ",
+    "Weekly": "ਹਫ਼ਤਾਨਾ",
+    "Monthly": "ਮਹੀਨੇ ਵਿੱਚ",
+    "Last 5 yrs": "ਆਖਰੀ 5 ਸਾਲ",
+    "Set Your Monthly Goal": "ਆਪਣਾ ਮਹੀਨਾ ਲਕੀਰ ਲਗਾਓ",
+    "Submit": "ਪ੍ਰਸਤੁਤ ਕਰੋ",
+    "Safe to spend": "ਖਰਚ ਕਰਨ ਲਈ ਸੁਰੱਖਿਆ",
+    "PROJECTION": "ਪ੍ਰੋਜੈਕਸ਼ਨ",
+    "chartExpenseDescription": "ਖਰਚ: {{expense}} | ਬੱਚਤ: {{savings}}",
+    "dailyExpense": "₹{{amount}}/ਦਿਨ"
+  },
+  "editProfile": {
+    "EditProfile": "ਪ੍ਰੋਫਾਈਲ ਸੋਧੋ",
+    "Name": "ਨਾਮ",
+    "EmailAddress": "ਈਮੇਲ ਐਡਰੈੱਸ",
+    "PhoneNumber": "ਫੋਨ ਨੰਬਰ",
+    "FamilyType": "ਪਰਿਵਾਰ ਦੀ ਕਿਸਮ",
+    "Pincode": "ਪਿੰਕੋਡ",
+    "TotalMembersInFamily": "ਪਰਿਵਾਰ ਵਿੱਚ ਕੁੱਲ ਸਦਸ਼ ਹਨ",
+    "ProfileComplete": "ਪ੍ਰੋਫਾਈਲ ਪੂਰੀ",
+    "Save": "ਸੰਭਾਲੋ",
+    "Joint": "ਜੋਇੰਟ",
+    "Nuclear": "ਨਿਊਕਲੀਅਰ",
+    "Alone": "ਆਪਣੇ ਆਪ"
+  },
+  "referral": {
+    "Heading": "ਆਪਣੇ ਸੰਪਰਕਾਂ ਨੂੰ ਰੇਫਰ ਕਰੋ",
+    "SelectAll": "ਸਭ ਚੁਣੋ",
+    "Add": "ਸ਼ਾਮਲ ਕਰੋ +",
+    "Remove": "ਹਟਾਓ -",
+    "Send": "ਭੇਜੋ",
+    "Person": "ਵਿਅਕਤੀ",
+    "Name": "ਨਾਮ",
+    "PhoneNumber": "ਫੋਨ ਨੰਬਰ",
+    "EmailAddress": "ਈਮੇਲ ਐਡਰੈੱਸ"
+  },
+  "interests": {
+    "SelectInterests": "ਆਪਣੀ ਰੁਚੀਆਂ ਚੁਣੋ",
+    "Budgeting and Expense Tracking": "ਬਜਟ ਤਿਆਰ ਕਰਨ ਅਤੇ ਖਰਚ ਟ੍ਰੈਕ ਕਰਨ",
+    "Saving and Investing": "ਬਚਤ ਅਤੇ ਨਿਵੇਸ਼",
+    "Real Estate": "ਅਸਲ ਇਸਟੇਟ",
+    "Estate Planning": "ਇਸਟੇਟ ਪਲੈਨਿੰਗ",
+    "Tax Planning": "ਟੈਕਸ ਪਲੈਨਿੰਗ",
+    "Insurance": "ਬੀਮਾ",
+    "Retirement Planning": "ਰਿਟਾਯਰਮੈਂਟ ਪਲੈਨਿੰਗ",
+    "Emergency Funds": "ਇਮਰਜੈਂਸੀ ਫੰਡ",
+    "Debt Management": "ਕਰਜ ਪ੍ਰਬੰਧਨ",
+    "Financial Goals Setting": "ਆਰਥਿਕ ਲਕੜਾਉਣੇ ਦੀ ਗੋਲ ਸੈੱਟਿੰਗ",
+    "Credit Scores and Reports": "ਕਰੈਡਿਟ ਸਕੋਰ ਅਤੇ ਰਿਪੋਰਟ",
+    "Frugality and Minimalism": "ਫਰੂਗੈਲਿਟੀ ਅਤੇ ਮਿਨੀਮੈਲਿਜ਼ਮ",
+    "Side Hustles and Freelancing": "ਸਾਈਡ ਹੱਸਲਸ ਅਤੇ ਫ੍ਰੀਲੈਂਸਿੰਗ",
+    "Mindset and Psychology of Money": "ਪੈਸੇ ਦੀ ਮਾਨਸਿਕਤਾ ਅਤੇ ਸਿਖਲਾਈ",
+    "Financial Independence and Retire Early (FIRE)": "ਆਰਥਿਕ ਆਜਾਦੀ ਅਤੇ ਜਲਦੀ ਰੀਟਾਯਰ ਹੋਣ (FIRE)",
+    "Education and Career Development": "ਸਿੱਖਿਆ ਅਤੇ ਕੈਰੀਅਰ ਵਿਕਾਸ",
+    "Banking and Personal Finance Apps": "ਬੈਂਕਿੰਗ ਅਤੇ ਵਿਅਕਤੀ ਆਰਥਿਕ ਐਪਸ",
+    "Philanthropy and Charitable Giving": "ਫਿਲੈਂਥ੍ਰੋਪੀ ਅਤੇ ਚੇਰਿਟੇਬਲ ਦੇਣਾ",
+    "Money and Relationships": "ਪੈਸੇ ਅਤੇ ਸਬੰਧ",
+    "Financial Success Stories": "ਆਰਥਿਕ ਸਫਲਤਾ ਦੀ ਕਹਾਣੀ"
+  },
+  "due": {
+    "BillsAndSubscriptions": "ਬਿਲਾਂ ਅਤੇ ਗਾਹਕਾਂ",
+    "Bills": "ਬਿਲ",
+    "Subscriptions": "ਗਾਹਕੀ",
+    "YouPaidMore": "ਤੁਸੀਂ ਆਪਣੇ ਸੈਲ ਫੋਨ ਬਿਲ 'ਤੇ 789 ਰੁਪਏ ਜਾਦਾ ਦਿੱਤੇ",
+    "GoToTrends": "ਟ੍ਰੈਂਡ ਤੇ ਜਾਓ",
+    "SeeAll": "ਸਭ ਦੇਖੋ",
+    "SaveMoneyTag": "ਸਹੀ ਪਲਾਨ ਚੁਣ ਕੇ ਪੈਸੇ ਬਚਾਓ",
+    "Due": "ਦੇ ਨੇ",
+    "Total": "ਕੁੱਲ",
+    "AmountDue": "ਦੇਣ ਦੀ ਰਕਮ",
+    "CreditCard": "ਕਰੈਡਿਟ ਕਾਰਡ",
+    "Electricity": "ਬਿਜਲੀ",
+    "DueInXDays": "{{count}} ਦਿਨਾਂ ਵਿੱਚ ਦੇਣਾ ਹੈ"
+  },
+  "scan": {
+    "Scan QR code": "QR ਕੋਡ ਸੈਕਨ ਕਰੋ",
+    "Flash": "ਫਲੈਸ਼",
+    "Off": "ਬੰਦ",
+    "On": "ਚਾਲੂ",
+    "Place a reciept inside camera": "ਕੈਮਰੇ ਦੇ ਅੰਦਰ ਇੱਕ ਰਸੀਦ ਰੱਖੋ",
+    "Open the album to choose your reciepts.": "ਆਪਣੀ ਰਸੀਦਾਂ ਚੁਣਨ ਲਈ ਐਲਬਮ ਖੋਲੋ।"
+  },
+  "forYou": {
+    "Transactions services or contacts": "ਲੇਣ-ਦੇਣ ਸੇਵਾਵਾਂ ਜਾਂ ਸੰਪਰਕ",
+    "For You": "ਤੁਹਾਡੇ ਲਈ",
+    "See all": "-ਸਭ ਵੇਖੋ",
+    "Basic understanding of finance": "ਆਰਥਿਕ ਸਮਝ ਦੀ ਬੁਨਿਆਦ",
+    "Start": "ਸ਼ੁਰੂ ਕਰੋ",
+    "Applications": "ਐਪਲੀਕੇਸ਼ਨਾਂ",
+    "Join our community": "ਸਾਡੇ ਸੰਗਠਨ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਵੋ",
+    "Grab your daily cards": "ਆਪਣੇ ਰੋਜ਼ਾਨਾ ਕਾਰਡ ਪ੍ਰਾਪਤ ਕਰੋ"
+  },
+  "spending":{
+    "Bank transactions": "ਬੈਂਕ ਲੇਣ-ਦੇਣ",
+    "Maze platinum": "ਮੇਜ਼ ਪਲੈਟਿਨਮ",
+    "₹12,35,420.00": "₹12,35,420.00",
+    "Spendings": "ਖਰਚ",
+    "in": "ਵਿੱਚ",
+    "See all": "ਸਭ ਵੇਖੋ",
+    "Netflix": "ਨੈਟਫਲਿਕਸ",
+    "Dry Cleaning": "ਸੁਖਾਈ ਹੋਈ ਧੋਨ ਵਾਲਾ",
+    "Shopping": "ਖਰੀਦਦਾਰੀ",
+    "debit card": "ਡੈਬਿਟ ਕਾਰਡ",
+    "valid thru": "ਮਾਨਿਆ ਗਿਆ ਮੁਕਰਰ"
+  },
+  "monthNames": {
+    "January": "ਜਨਵਰੀ",
+    "February": "ਫਰਵਰੀ",
+    "March": "ਮਾਰਚ",
+    "April": "ਅਪ੍ਰੈਲ",
+    "May": "ਮਈ",
+    "June": "ਜੂਨ",
+    "July": "ਜੁਲਾਈ",
+    "August": "ਅਗਸਤ",
+    "September": "ਸਤੰਬਰ",
+    "October": "ਅਕਤੂਬਰ",
+    "November": "ਨਵੰਬਰ",
+    "December": "ਦਸੰਬਰ"
+  },
+
+  "register":{
+    "register": "ਆਪਣਾ ਖਾਤਾ ਰਜਿਸਟਰ ਕਰੋ",
+    "enterMobile": "ਮੋਬਾਇਲ ਨੰਬਰ ਦਾਖਲ ਕਰੋ",
+    "createPassword": "ਪਾਸਵਰਡ ਬਣਾਓ",
+    "confirmPassword": "ਪਾਸਵਰਡ ਪੁਸ਼ਟੀ ਕਰੋ",
+    "tooWeak": "ਬੋਹਤ ਕਮਜੋਰ",
+    "weak": "ਕਮਜੋਰ",
+    "good": "ਚੰਗਾ",
+    "strong": "ਤੱਕਤਵਰ",
+    "signUp": "ਸਾਇਨ ਅੱਪ ਕਰੋ",
+    "successTitle": "ਸਫਲਤਾ",
+    "successMessage": "ਯੂਜ਼ਰ ਸਫਲਤਾਪੂਰਵਕ ਬਣਾਇਆ ਗਿਆ ਹੈ!",
+    "errorTitle": "ਗਲਤੀ",
+    "inputPhoneNumber": "ਕਿਰਪਾ ਕਰਕੇ ਮੋਬਾਇਲ ਨੰਬਰ ਦਾਖਲ ਕਰੋ",
+    "enterPassword": "ਕਿਰਪਾ ਕਰਕੇ ਪਾਸਵਰਡ ਦਾਖਲ ਕਰੋ",
+    "pleaseconfirmPassword": "ਕਿਰਪਾ ਕਰਕੇ ਪਾਸਵਰਡ ਪੁਸ਼ਟੀ ਕਰੋ",
+    "ValidInputPhoneNumber": "ਕਿਰਪਾ ਕਰਕੇ ਇੱਕ ਵੈਲੀਡ ਮੋਬਾਇਲ ਨੰਬਰ ਦਾਖਲ ਕਰੋ",
+    "enterRegisteredMobile": "ਆਪਣਾ ਰਜਿਸਟਰਡ ਮੋਬਾਇਲ ਨੰਬਰ ਦਾਖਲ ਕਰੋ"
+  },
+
+  "topNav":{
+    "name": "ਅੰਕਿਤਾ"
+  },
+    
+  "common": {
+    "Save": "ਸੰਭਾਲੋ"
+  }
+}

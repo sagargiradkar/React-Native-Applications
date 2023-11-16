@@ -1,0 +1,51 @@
+How to create Fack api in react native application
+How to install json quesy
+go to json server link 
+go to github repositoiry 
+from that copy command
+npm install -g json-server
+open cmd and type above command
+create an api with folder name as fake api
+open it into vscode
+create new file with name db.json
+go to that folder and start json server 
+write command onto terminal
+json-server --watch db.json
+json-server --watch db.json
+
+adding data to db.json
+
+in 
+POST 
+Body
+Row
+json data 
+remove all data from db.json file due to not available of id
+
+{
+    "name":"Paban",
+    "age":26,
+    "email":"spgiradkar2002@gmail.com"
+
+}
+
+for updating data 
+
+used put method 
+then update the data of which data wants to edits
+
+Json server API with React Native 
+
+Run JSON server with IP address
+Check IP is Working 
+How to access system IP with emulator
+JSON Server API with React Native
+
+ipconfig
+open cmd
+json-server --host 0.0.0.0 db.json 
+
+How to install redux into a project
+npm i redux
+npm i react-redux
+npm i @reduxjs/toolkit

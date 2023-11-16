@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "FinEdu",
+    "slug": "FinEdu",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/mainlogo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/mainlogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/mainlogo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.budgetviraj.AppLication"
+    },
+    "web": {
+      "favicon": "./assets/mainlogo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8e6cd6f5-15c0-403a-927b-905815640d70"
+      }
+    }
+  }
+}

@@ -1,0 +1,273 @@
+{
+  "chart": {
+    "Years": "Years",
+    "Amount": "Amount",
+    "Income": "Income",
+    "Expense": "Expense",
+    "Savings": "Savings"
+  },
+  "suggestFeautre": {
+    "title": "Suggest a Feature",
+    "introText": "What would make Budgetalizer more useful to you ?",
+    "titleLabel": "TITLE",
+    "titlePlaceholder": "Your idea",
+    "emailLabel": "EMAIL",
+    "emailPlaceholder": "Email (optional)",
+    "detailsLabel": "DETAILS",
+    "detailsPlaceholder": "Any Additional details",
+    "mandatoryField": "*",
+    "submitButton": "SUBMIT"
+  },
+  "languageSelection": {
+    "SelectLanguage": "Select Language"
+  },
+  "currencySelection": {
+    "Select Currency": "Select Currency",
+    "Filter currencies": "Filter currencies",
+    "Save": "Save"
+  },
+
+  "currency":{
+    "USD": "United States Dollar (USD)",
+    "EUR": "Euro (EUR)",
+    "GBP": "British Pound Sterling (GBP)",
+    "JPY": "Japanese Yen (JPY)",
+    "CAD": "Canadian Dollar (CAD)",
+    "AUD": "Australian Dollar (AUD)",
+    "CHF": "Swiss Franc (CHF)",
+    "INR": "Indian Rupee (INR)"
+  },
+
+  "feedback": {
+    "How was your experience?": "How was your experience?",
+    "feedback": "Submit Feedback"
+  },
+  "helpSupport": {
+    "heading": "Help and Support",
+    "nameLabel": "Name",
+    "namePlaceholder": "Enter your name",
+    "phoneLabel": "Phone Number",
+    "phonePlaceholder": "Enter your phone number",
+    "emailLabel": "Email ID",
+    "emailPlaceholder": "Enter your email address",
+    "descriptionLabel": "Description of Issue",
+    "descriptionPlaceholder": "Describe the issue",
+    "mandatoryField": "*",
+    "saveButton": "Save"
+  },
+  "profile": {
+    "Profile": "Profile",
+    "Referral": "Referral",
+    "Language": "Language",
+    "Security": "Security",
+    "MyGifts": "F.A.Q.",
+    "HelpSupport": "Help & Support",
+    "Settings": "Settings",
+    "Interests": "Interests",
+    "Currency": "Currency",
+    "Logout": "Logout",
+    "Budgetalizer": "Budgetalizer",
+    "BudgetalizerUser": "Viraj",
+    "DarkMode": "DARK MODE"
+  },
+  "addTransaction": {
+    "selectCategory": "SELECT CATEGORY",
+    "amount": "Amount :",
+    "description": "Description :",
+    "saveTransaction": "SAVE TRANSACTION",
+    "income": "Credit  ( Income )",
+    "expense": "Debit  ( Expense )",
+    "numbersOnly": "Numbers only",
+    "addDescription": "Add Description",
+    "selectDate": "Select Date",
+    "successTitle": "SUCCESS",
+    "successMessage": "Transaction added successfully!",
+    "warningTitle": "Warning",
+    "warningMessage": "Something went wrong",
+    "Enter New Category": "Enter New Category",
+    "+ ADD CATEGORY": "+ ADD CATEGORY",
+    "CREDIT_LABEL": "Credit  ( Income )",
+    "DEBIT_LABEL": "Debit  ( Expense )",
+    "DESCRIPTION_REQUIRED_ERROR": "Description is required.",
+    "AMOUNT_REQUIRED_ERROR": "Transaction Amount is required.",
+    "DATE_REQUIRED_ERROR": "Select a date."
+  },
+  "chatBot": {
+    "greeting": "Hello! How can I help you?",
+    "helpPrompt": "Elaborate your issue",
+    "moneyRequest": "Please provide your transaction ID.",
+    "thankResponse": "Happy to assist you",
+    "investmentInfo": "Normal financial planning formula is 50%, 30%, 20%",
+    "default": "I'm sorry, I didn't understand that.",
+    "sendButton": "Send",
+    "placeholder": "Type your message..."
+  },
+  "login": {
+    "budgetalizer": "BUDGETALIZER",
+    "Phone Number": "Phone Number",
+    "Password": "Password",
+    "Please input phone number": "Please input phone number",
+    "Please input valid phone number": "Please input a valid phone number",
+    "Please enter password": "Please enter a password",
+    "Min password length of 6": "Minimum password length is 6 characters",
+    "Password should have at least one uppercase letter, one lowercase letter, one number and one special character": "Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character",
+    "forgetPassword": "Forgot Password?",
+    "login": "Login",
+    "or": "OR",
+    "register": "Register"
+  },
+  "getStarted": {
+    "SAVE MONEY WISELY !": "SAVE MONEY WISELY !",
+    "Get Started": "Get Started"
+  },
+  "homePage": {
+    "Daily": "Daily",
+    "Weekly": "Weekly",
+    "Monthly": "Monthly",
+    "Last 5 yrs": "Last 5 yrs",
+    "Set Your Monthly Goal": "Set Your Monthly Goal",
+    "Submit": "Submit",
+    "Safe to spend": "Safe to spend",
+    "PROJECTION": "PROJECTION",
+    "chartExpenseDescription": "Expenses: {{expense}} | Savings: {{savings}}",
+    "dailyExpense": "₹{{amount}}/day"
+  },
+  "editProfile": {
+    "EditProfile": "Edit Profile",
+    "Name": "Name",
+    "EmailAddress": "Email Address",
+    "PhoneNumber": "Phone Number",
+    "FamilyType": "Family Type",
+    "Pincode": "Pincode",
+    "TotalMembersInFamily": "Total members in family",
+    "ProfileComplete": "Profile Complete",
+    "Save": "Save",
+    "Joint": "Joint",
+    "Nuclear": "Nuclear",
+    "Alone": "Alone"
+  },
+  "referral": {
+    "Heading": "Refer to your contacts",
+    "SelectAll": "Select all",
+    "Add": "Add +",
+    "Remove": "Remove -",
+    "Send": "Send",
+    "Person": "Person",
+    "Name": "Name",
+    "PhoneNumber": "Phone Number",
+    "EmailAddress": "Email Address"
+  },
+  "interests": {
+    "SelectInterests": "Select your interests",
+    "Budgeting and Expense Tracking": "Budgeting and Expense Tracking",
+    "Saving and Investing": "Saving and Investing",
+    "Real Estate": "Real Estate",
+    "Estate Planning": "Estate Planning",
+    "Tax Planning": "Tax Planning",
+    "Insurance": "Insurance",
+    "Retirement Planning": "Retirement Planning",
+    "Emergency Funds": "Emergency Funds",
+    "Debt Management": "Debt Management",
+    "Financial Goals Setting": "Financial Goals Setting",
+    "Credit Scores and Reports": "Credit Scores and Reports",
+    "Frugality and Minimalism": "Frugality and Minimalism",
+    "Side Hustles and Freelancing": "Side Hustles and Freelancing",
+    "Mindset and Psychology of Money": "Mindset and Psychology of Money",
+    "Financial Independence and Retire Early (FIRE)": "Financial Independence and Retire Early (FIRE)",
+    "Education and Career Development": "Education and Career Development",
+    "Banking and Personal Finance Apps": "Banking and Personal Finance Apps",
+    "Philanthropy and Charitable Giving": "Philanthropy and Charitable Giving",
+    "Money and Relationships": "Money and Relationships",
+    "Financial Success Stories": "Financial Success Stories"
+  },
+  "due": {
+    "BillsAndSubscriptions": "Bills and subscriptions",
+    "Bills": "Bills",
+    "Subscriptions": "Subscriptions",
+    "YouPaidMore": "You paid 789 more on your cell phone bill",
+    "GoToTrends": "Go to trends",
+    "SeeAll": "See all",
+    "SaveMoneyTag": "Save money by choosing the right plan",
+    "Due": "Due",
+    "Total": "Total",
+    "AmountDue": "Amount Due",
+    "CreditCard": "Credit Card",
+    "Electricity": "Electricity",
+    "DueInXDays": "Due in {{count}} days"
+  },
+  "scan": {
+    "Scan QR code": "Scan QR code",
+    "Flash": "Flash",
+    "Off": "Off",
+    "On": "On",
+    "Place a reciept inside camera": "Place a receipt inside the camera",
+    "Open the album to choose your reciepts.": "Open the album to choose your receipts."
+  },
+  "forYou": {
+    "Transactions services or contacts": "Transactions services or contacts",
+    "For You": "For You",
+    "See all": "-See all",
+    "Basic understanding of finance": "Basic understanding of finance",
+    "Start": "Start",
+    "Applications": "Applications",
+    "Join our community": "Join our community",
+    "Grab your daily cards": "Grab your daily cards"
+  },
+
+  "spending":{
+    "Bank transactions": "Bank transactions",
+    "Maze platinum": "Maze platinum",
+    "₹12,35,420.00": "₹12,35,420.00",
+    "Spendings": "Spendings",
+    "in": "in",
+    "See all": "See all",
+    "Netflix": "Netflix",
+    "Dry Cleaning": "Dry Cleaning",
+    "Shopping": "Shopping",
+    "debit card": "Debit Card",
+    "valid thru": "Valid Thru"
+  },
+  "monthNames": {
+    "January": "January",
+    "February": "February",
+    "March": "March",
+    "April": "April",
+    "May": "May",
+    "June": "June",
+    "July": "July",
+    "August": "August",
+    "September": "September",
+    "October": "October",
+    "November": "November",
+    "December": "December"
+  },
+
+  "register":{
+    "register": "Register your account",
+    "enterMobile": "Enter mobile number",
+    "createPassword": "Create Password",
+    "confirmPassword": "Confirm Password",
+    "tooWeak": "TOO WEAK",
+    "weak": "WEAK",
+    "good": "GOOD",
+    "strong": "STRONG",
+    "signUp": "Sign Up",
+    "successTitle": "SUCCESS",
+    "successMessage": "User Successfully Created!",
+    "errorTitle": "ERROR",
+    "inputPhoneNumber": "Please input phone number",
+    "enterPassword": "Please enter password",
+    "pleaseconfirmPassword": "Please confirm password",
+    "ValidInputPhoneNumber": "Please input valid phone number",
+    "enterRegisteredMobile": "Enter your registered mobile number",
+    "Submit": "SUBMIT"
+  },
+
+  "topNav":{
+    "name": "Ankita"
+  },
+    
+  "common": {
+    "Save": "Save"
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "chart": {
+    "Years": "வருடங்கள்",
+    "Amount": "தொகை",
+    "Income": "வருமானம்",
+    "Expense": "செலவு",
+    "Savings": "சேமிப்பு"
+  },
+  "suggestFeature": {
+    "title": "ஒரு அம்சம் பரிந்துரைக்கவும்",
+    "introText": "உங்களுக்கு படிக்குழுக்கு பெருமை கொடுக்கும் விஷயம் என்ன?",
+    "titleLabel": "தலைப்பு",
+    "titlePlaceholder": "உங்கள் விசயம்",
+    "emailLabel": "மின்னஞ்சல்",
+    "emailPlaceholder": "மின்னஞ்சல் (விருப்பமாக)",
+    "detailsLabel": "விபரங்கள்",
+    "detailsPlaceholder": "கூடுதல் விபரங்கள்",
+    "mandatoryField": "*",
+    "submitButton": "சமர்பிக்க"
+  },
+  "languageSelection": {
+    "SelectLanguage": "மொழியைத் தேர்ந்தெடு"
+  },
+  "currencySelection": {
+    "Select Currency": "கட்டணம் தேர்ந்தெடு",
+    "Filter currencies": "நாணயங்களை வடிகட்டு",
+    "Save": "சேமி"
+  },
+  "currency": {
+    "USD": "ஐக்கிய அமெரிக்க டாலர் (USD)",
+    "EUR": "யூரோ (EUR)",
+    "GBP": "பிரிட்டிஷ் பவுண்ட் ஸ்டெர்லிங் (GBP)",
+    "JPY": "ஜப்பனிய யென் (JPY)",
+    "CAD": "கனடிய டாலர் (CAD)",
+    "AUD": "ஆஸ்திரேலிய டாலர் (AUD)",
+    "CHF": "ஸ்விஸ் பிராங்க் (CHF)",
+    "INR": "இந்திய ரூபாய் (INR)"
+  },
+  "feedback": {
+    "How was your experience?": "உங்கள் அனுபவம் எப்படி இது?",
+    "feedback": "பின்புற கருத்துக்களை சமர்ப்பிக்கவும்"
+  },
+  "helpSupport": {
+    "heading": "உதவி மற்றும் ஆதரவு",
+    "nameLabel": "பெயர்",
+    "namePlaceholder": "உங்கள் பெயரை உள்ளிடவும்",
+    "phoneLabel": "தொலைபேசி எண்",
+    "phonePlaceholder": "உங்கள் தொலைபேசி எணை உள்ளிடவும்",
+    "emailLabel": "மின்னஞ்சல் ஐடி",
+    "emailPlaceholder": "உங்கள் மின்னஞ்சல் முகவரியை உள்ளிடவும்",
+    "descriptionLabel": "பிரச்சனையின் விளக்கம்",
+    "descriptionPlaceholder": "பிரச்சனை விளக்கம்",
+    "mandatoryField": "*",
+    "saveButton": "சேமி"
+  },
+  "profile": {
+    "Profile": "சுயசார் விபரம்",
+    "Referral": "பரிந்துரை",
+    "Language": "மொழி",
+    "Security": "பாதுகாப்பு",
+    "MyGifts": "அடிக்கடி கேட்கப்படும் கேள்விகள்",
+    "HelpSupport": "உதவி மற்றும் ஆதரவு",
+    "Settings": "அமைப்புகள்",
+    "Interests": "விருப்புகள்",
+    "Currency": "நாணயம்",
+    "Logout": "வெளியேறு",
+    "Budgetalizer": "பட்ஜெடாலைசர்",
+    "BudgetalizerUser": "ஆண்",
+    "DarkMode": "கரை முடியும் படிமம்"
+  },
+  "addTransaction": {
+    "selectCategory": "வகை தேர்ந்தெடு",
+    "amount": "தொகை:",
+    "description": "விளக்கம்:",
+    "saveTransaction": "வருமானை சேமிக்க",
+    "income": "வருமானம் (வருமான)",
+    "expense": "செலவு (செலவு)",
+    "numbersOnly": "எண்கள் மட்டும்",
+    "addDescription": "விளக்கம் சேர்க்க",
+    "selectDate": "தேதி தேர்ந்தெடு",
+    "successTitle": "வெற்றி",
+    "successMessage": "வருமானம் வெற்றிகரமாக சேமிக்கப்பட்டது!",
+    "warningTitle": "எச்சரிக்கை",
+    "warningMessage": "ஏதாவது தவறு செய்யப்பட்டது",
+    "Enter New Category": "புதிய வகையை உள்ளிடவும்",
+    "+ ADD CATEGORY": "+ வகை சேர்க்க",
+    "CREDIT_LABEL": "வருமானம் (வருமான)",
+    "DEBIT_LABEL": "செலவு (செலவு)",
+    "DESCRIPTION_REQUIRED_ERROR": "விளக்கம் தேவை.",
+    "AMOUNT_REQUIRED_ERROR": "பரிசு தொகை தேவை.",
+    "DATE_REQUIRED_ERROR": "ஒரு தேதியைத் தேர்ந்தெடுக்கவும்."
+  },
+  "chatBot": {
+    "greeting": "வணக்கம்! நீங்கள் எப்படி உதவ முடியும்?",
+    "helpPrompt": "உங்கள் பிரச்சனையை விளக்கவும்",
+    "moneyRequest": "உங்கள் பரிவர்த்தனை ஐடி வழங்கவும்.",
+    "thankResponse": "உங்களுக்கு உதவ மகிழ்ச்சி",
+    "investmentInfo": "பொது நிதியை திட்டமிடும் இயல்பு திட்டம் இது: 50%, 30%, 20%",
+    "default": "மன்னிக்கவும், அதை படிக்கவில்லை.",
+    "sendButton": "அனுப்பு"
+  },
+  "login": {
+    "budgetalizer": "பட்ஜெடலைசர்",
+    "Phone Number": "தொலைபேசி எண்",
+    "Password": "கடவுச்சொல்",
+    "Please input phone number": "தொலைபேசி எண் உள்ளிடவும்",
+    "Please input valid phone number": "செயல்பாட்டு தொலைபேசி எண் உள்ளிடவும்",
+    "Please enter password": "கடவுச்சொல் உள்ளிடவும்",
+    "Minimum password length of 6": "குறைந்தபட்ச கடவுச்சொல் நீளம் 6 எழுத்துக்கு கீழ் இருக்க வேண்டும்",
+    "Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character": "கடவுச்சொல் குறைந்தபட்சம் ஒரு மேலுக்குத்திக்குத் தலைப்பு, ஒரு குறைந்தது ஒரு எண் மற்றும் ஒரு சிறப்பு எழுத்து கொண்டிருக்க வேண்டும்",
+    "forgetPassword": "கடவுச்சொல் மறந்து?",
+    "login": "உள்நுழை",
+    "or": "அல்லது",
+    "register": "பதிவு செய்"
+  },
+  "getStarted": {
+    "SAVE MONEY WISELY !": "புதிய சேமிக்க ஆக்கவும்!",
+    "Get Started": "ஆரம்பிக்கவும்"
+  },
+  "homePage": {
+    "Daily": "தினசரி",
+    "Weekly": "வாரப்பட்டியல்",
+    "Monthly": "மாதாந்திர",
+    "Last 5 yrs": "கடந்த 5 ஆண்டுகள்",
+    "Set Your Monthly Goal": "உங்கள் மாதாந்திர இலக்கை அமைக்கவும்",
+    "Submit": "சமர்ப்பிக்க",
+    "Safe to spend": "செலவு செய்ய பாதுகாக்க கிடைக்கும்",
+    "PROJECTION": "முன்னிருப்பு",
+    "chartExpenseDescription": "செலவுகள்: {{expense}} | சேமிப்புகள்: {{savings}}",
+    "dailyExpense": "₹{{amount}}/நாள்"
+  },
+  "editProfile": {
+    "EditProfile": "சுயசார் விபரத்தை திருத்து",
+    "Name": "பெயர்",
+    "EmailAddress": "மின்னஞ்சல் முகவரி",
+    "PhoneNumber": "தொலைபேசி எண்",
+    "FamilyType": "குடும்ப வகை",
+    "Pincode": "அஞ்சல் குறியீடு",
+    "TotalMembersInFamily": "குடும்பத்தில் மொத்த உறவினர் எண்ணிக்கை",
+    "ProfileComplete": "சுயசார் விபரம் முடிந்தது",
+    "Save": "சேமி",
+    "Joint": "கூட்டம்",
+    "Nuclear": "அணுசாரி",
+    "Alone": "ஒன்றாக"
+  },
+  "referral": {
+    "Heading": "உங்கள் தொடக்க அனுப்பு",
+    "SelectAll": "அனைத்தையும் தேர்ந்தெடு",
+    "Add": "சேர்க்க +",
+    "Remove": "அகற்று -",
+    "Send": "அனுப்பு",
+    "Person": "பெருமை",
+    "Name": "பெயர்",
+    "PhoneNumber": "தொலைபேசி எண்",
+    "EmailAddress": "மின்னஞ்சல் முகவரி"
+  },
+  "interests": {
+    "SelectInterests": "உங்கள் விருப்புகளை தேர்ந்தெடு",
+    "Budgeting and Expense Tracking": "பட்ஜெட் கையகப்படுத்தல் மற்றும் செலவு கணக்கு",
+    "Saving and Investing": "சேமிக்குதல் மற்றும் முதலீடு",
+    "Real Estate": "உண்மை வாடிக்கை",
+    "Estate Planning": "சொத்து திட்டம்",
+    "Tax Planning": "வரி திட்டம்",
+    "Insurance": "காப்பீடு",
+    "Retirement Planning": "பதிவு திட்டம்",
+    "Emergency Funds": "அவசர நிதித் திட்டம்",
+    "Debt Management": "கடன் நிர்வகனம்",
+    "Financial Goals Setting": "நிதியியல் இலக்குகள் அமைக்க",
+    "Credit Scores and Reports": "கடன் மதிப்புகள் மற்றும் அறிக்கைகள்",
+    "Frugality and Minimalism": "கீழ்முதல் முறைப்பாடு மற்றும் குறைபாடு",
+    "Side Hustles and Freelancing": "பகுதி செய்திகள் மற்றும் பூர்வமைத்து செயல்பாடு",
+    "Mindset and Psychology of Money": "பண மனசாட்சி மற்றும் உள்ளம்",
+    "Financial Independence and Retire Early (FIRE)": "நிதியியல் சுதந்திரம் மற்றும் விரைவில் பணியார் (FIRE)",
+    "Education and Career Development": "கல்வி மற்றும் பணியார் வளர்ச்சி",
+    "Banking and Personal Finance Apps": "வங்கி மற்றும் தனிப்பணி நிதியம் பயன்பாடுகள்",
+    "Philanthropy and Charitable Giving": "கையேடு மற்றும் தந்தையார் கொடுப்பதம்",
+    "Money and Relationships": "பணம் மற்றும் உறவுகள்",
+    "Financial Success Stories": "நிதிய வெற்றிக் கதைகள்"
+  },
+  "due": {
+    "BillsAndSubscriptions": "விலை மற்றும் சந்தாக்கள்",
+    "Bills": "விலைகள்",
+    "Subscriptions": "சந்தாக்கள்",
+    "YouPaidMore": "உங்கள் செல்ஃபோன் விலையில் 789 பெருக்கி",
+    "GoToTrends": "நாடுகளுக்கு செல்",
+    "SeeAll": "அனைத்தையும் பார்",
+    "SaveMoneyTag": "சரிய திட்டத்தை தேர்ந்தெடுக்கும் மூலம் பணம் சேமிக்க",
+    "Due": "நிலுவை",
+    "Total": "மொத்தம்",
+    "AmountDue": "நிலுவை தொகை",
+    "CreditCard": "கிரெடிட் கார்டு",
+    "Electricity": "மின்வை",
+    "DueInXDays": "{{count}} நாட்களில் நிலுவை"
+  },
+  "scan": {
+    "Scan QR code": "QR குறியீட்டை அடை",
+    "Flash": "ஃபிளாஷ்",
+    "Off": "அணை",
+    "On": "ஆன்",
+    "Place a reciept inside camera": "கேமராவில் ஒரு ரசீதை வைக்கவும்",
+    "Open the album to choose your reciepts.": "உங்கள் ரசீத்களை தேர்ந்தெடுக்க ஆல்பம் திற"
+  },
+  "forYou": {
+    "Transactions services or contacts": "பரிவர்த்தனை சேவைகள் அல்லது தொடர்புகள்",
+    "For You": "உங்களுக்கு",
+    "See all": "-அனைத்து",
+    "Basic understanding of finance": "நிதியியல் அடிப்படை புரிந்துகொள்ளுதல்",
+    "Start": "தொடக்கம்",
+    "Applications": "விண்ணப்பங்கள்",
+    "Join our community": "எங்கள் சமூகத்தில் சேருங்கள்",
+    "Grab your daily cards": "உங்கள் தினசரி அட்டைகளை பிடிக்கவும்"
+  },
+  "spending":{
+    "Bank transactions": "வங்கி பரிவர்த்தனைகள்",
+    "Maze platinum": "மேஜ் பிளாட்டினம்",
+    "₹12,35,420.00": "₹12,35,420.00",
+    "Spendings": "செலவுகள்",
+    "in": "இல்",
+    "See all": "அனைத்தையும் பார்",
+    "Netflix": "நெட்ஃபிக்ஸ்",
+    "Dry Cleaning": "உலக்கைச் சுத்தி",
+    "Shopping": "ஷாப்பிங்",
+    "debit card": "டெபிட் அட்டை",
+    "valid thru": "செல்லும் வரை"
+  },
+  "monthNames": {
+    "January": "ஜனவரி",
+    "February": "பிப்ரவரி",
+    "March": "மார்ச்",
+    "April": "ஏப்ரல்",
+    "May": "மே",
+    "June": "ஜூன்",
+    "July": "ஜூலை",
+    "August": "ஆகஸ்ட்",
+    "September": "செப்டம்பர்",
+    "October": "அக்டோபர்",
+    "November": "நவம்பர்",
+    "December": "டிசம்பர்"
+  },
+  "register":{
+    "register": "உங்கள் கணக்கை பதிவு செய்",
+    "enterMobile": "மொபைல் எண்ணை உள்ளிடுக",
+    "createPassword": "கடவுச்சொல் உருவாக்கு",
+    "confirmPassword": "கடவுச்சொல் உறுதி செய்",
+    "tooWeak": "மிகவும் பல மிகவும்",
+    "weak": "பல",
+    "good": "நன்றாக",
+    "strong": "வலுவாக",
+    "signUp": "பதிவு செய்",
+    "successTitle": "வெற்றி",
+    "successMessage": "பயனர் வெற்றிகரமாக உருவாக்கப்பட்டது!",
+    "errorTitle": "பிழை",
+    "inputPhoneNumber": "மொபைல் எண் உள்ளிடுக",
+    "enterPassword": "கடவுச்சொல் உள்ளிடுக",
+    "pleaseconfirmPassword": "கடவுச்சொல் உறுதி செய்",
+    "ValidInputPhoneNumber": "செயல்பாட்டு மொபைல் எண் உள்ளிடுக",
+    "enterRegisteredMobile": "உங்கள் பதிவுசெய்த மொபைல் எணை உள்ளிடு"
+  },
+  "topNav":{
+    "name": "அங்கிதா"
+  },
+    
+  "common": {
+    "Save": "சேமி"
+  }
+}

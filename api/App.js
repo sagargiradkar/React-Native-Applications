@@ -1,50 +1,197 @@
-import React, { useEffect, useState } from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React, { useState, useEffect } from "react";
+import {
+  View,
+  StyleSheet,
+  Text,
+  Keyboard,
+  ScrollView,
+  Dimensions,
+  TouchableOpacity,
+  Alert,
+  Modal,
+} from "react-native";
+import Icon from "react-native-vector-icons/FontAwesome";
+import Background from "../Components/Background";
+import Btn from "../Components/Btn";
+import { useTheme } from "@react-navigation/native";
+import AsyncStorage from "@react-native-async-storage/async-storage";
+import axios from 'axios';
 
-export default function App() {
-  const [data, setData] = useState(null); // Initialize data as null
+const App = ({ navigation }) => {
+  const [rememberMe, setRememberMe] = useState(false);
+  const [inputs, setInputs] = React.useState({ email: "", password: "" });
+  const colors = useTheme().colors;
+  const [modalVisible, setModalVisible] = useState(false);
+  const [modalContent, setModalContent] = useState("");
 
-  const getApiData = async () => {
+  useEffect(() => {
+    loadSavedCredentials();
+  }, []);
+
+  const fetchData = async (url) => {
     try {
-      const url = "https://jsonplaceholder.typicode.com/posts/1";
-      const response = await fetch(url);
-      if (response.ok) {
-        const result = await response.json();
-        setData(result);
-      } else {
-        console.error("Failed to fetch data");
+      console.warn("Fetching data...");
+      console.warn(url);
+
+      const response = await axios.get(url);
+
+      console.warn(response);
+
+      if (!response.status === 200) {
+        throw new Error(`HTTP error! Status: ${response.status}`);
       }
+
+      console.log("Setting modal content...");
+      setModalContent(JSON.stringify(response.data));
+      setModalVisible(true);
     } catch (error) {
-      console.error("An error occurred:", error);
+      console.warn(error);
+      console.error("Error fetching data:", error.message);
+      Alert.alert("Error", "An error occurred while fetching data");
     }
   };
 
-  useEffect(() => {
-    getApiData();
-  }, []);
+  const googleLogin = async () => {
+    console.log("Attempting Google login...");
+    await fetchData("https://www.google.com/");
+  };
+
+  const argyleLogin = async () => {
+    console.log("Attempting Argyle login...");
+    await fetchData("https://api.hibudgeting.com:9005/api/v1/hello");
+  };
 
   return (
-    <View style={styles.container}>
-      <Text style={{ fontSize: 30 }}>API Calling In React Native app</Text>
-      {data ? (
-        <View>
-          <Text style={{ fontSize: 30 }}>Id :{data.id} </Text>
-          <Text style={{ fontSize: 30 }}>User Id :{data.userId} </Text>
-          <Text style={{ fontSize: 30 }}>Title :{data.title} </Text>
-          <Text style={{ fontSize: 30 ,color:'red' }}>Body :{data.body} </Text>
-        </View>
-      ) : (
-        <Text>Loading...</Text>
-      )}
-    </View>
-  );
-}
+    <AlertNotificationRoot>
+      <Background>
+        <ScrollView>
+      
+            <View style={styles(colors).googleButtonContainer}>
+              <TouchableOpacity
+                style={styles(colors).googleButton}
+                onPress={googleLogin}
+              >
+                <Text style={styles(colors).googleButtonText}>Google</Text>
+              </TouchableOpacity>
+            </View>
+            <View style={styles(colors).googleButtonContainer}>
+              <TouchableOpacity
+                style={styles(colors).googleButton}
+                onPress={argyleLogin}
+              >
+                <Text style={styles(colors).googleButtonText}>Argyle</Text>
+              </TouchableOpacity>
+            </View>
+        </ScrollView>
+      </Background>
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    paddingTop:50,
-    alignItems: 'center',
-  },
-});
+      <Modal
+        animationType="slide"
+        transparent={true}
+        visible={modalVisible}
+        onRequestClose={() => setModalVisible(false)}
+      >
+        <View style={styles(colors).modalContainer}>
+          <ScrollView style={{ flex: 1 }}>
+            <View style={styles(colors).modalContent}>
+              <Text style={styles(colors).modalText}>{modalContent}</Text>
+              <TouchableOpacity
+                style={styles(colors).modalCloseButton}
+                onPress={() => setModalVisible(false)}
+              >
+                <Text style={styles(colors).modalCloseButtonText}>Close</Text>
+              </TouchableOpacity>
+            </View>
+          </ScrollView>
+        </View>
+      </Modal>
+    </AlertNotificationRoot>
+  );
+};
+
+const styles = (colors) =>
+  StyleSheet.create({
+    container: {
+      height: Dimensions.get("window").height,
+      alignItems: "center",
+    },
+    logo: {
+      width: "30%",
+      height: "30%",
+      resizeMode: "contain",
+    },
+    heading: { fontSize: 38, color: colors.text, marginBottom: 30 },
+    view1: { alignItems: "flex-end", width: "78%", marginTop: 10 },
+    forget: {
+      color: colors.text,
+      fontSize: 14,
+      paddingRight: 10,
+      fontWeight: "600",
+    },
+    view2: { alignItems: "center", marginTop: 40 },
+    btn: { width: 100 },
+    orContainer: { flexDirection: "row", alignItems: "center", padding: 10 },
+    startLine: { color: colors.text, opacity: 0.5 },
+    orTxt: {
+      width: 30,
+      textAlign: "center",
+      color: colors.text,
+      fontWeight: "600",
+    },
+    lastLine: { color: colors.text, opacity: 0.5 },
+    rememberMeContainer: {
+      flexDirection: "row",
+      alignItems: "left",
+    },
+    checkBox: {
+      flexDirection: "row",
+      alignItems: "left",
+    },
+    checkBoxText: {
+      fontSize: 16,
+      color: colors.text,
+    },
+    googleButtonContainer: {
+      marginTop: 20,
+    },
+    googleButton: {
+      backgroundColor: "#4285F4",
+      paddingVertical: 10,
+      paddingHorizontal: 20,
+      borderRadius: 5,
+    },
+    googleButtonText: {
+      color: "white",
+      fontSize: 16,
+      fontWeight: "bold",
+    },
+    modalContainer: {
+      flex: 1,
+      justifyContent: "center",
+      alignItems: "center",
+    },
+    modalContent: {
+      backgroundColor: "white",
+      padding: 20,
+      borderRadius: 10,
+      elevation: 5,
+    },
+    modalText: {
+      fontSize: 16,
+    },
+    modalCloseButton: {
+      marginTop: 10,
+      backgroundColor: "#4285F4",
+      paddingVertical: 10,
+      paddingHorizontal: 20,
+      borderRadius: 5,
+      alignSelf: "flex-end",
+    },
+    modalCloseButtonText: {
+      color: "white",
+      fontSize: 16,
+      fontWeight: "bold",
+    },
+  });
+
+export default App;
